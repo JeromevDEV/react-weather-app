@@ -1,5 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
+import { Helmet } from 'react-helmet'
+
 import Weather from './components/weather';
 import WeatherCard from './components/WeatherCard';
 import CitySelector from './components/CitySelector';
@@ -10,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Forecast from './components/forecast';
 
 export default function App() {
+  const TITLE = 'React Weather App'
   
   const [lat, setLat] = useState([]);
   const [long, setLong] = useState([]);
@@ -41,6 +44,10 @@ export default function App() {
   },[lat,long])
   
   return (
+  <>
+	<Helmet>
+        <title>{ TITLE }</title>
+    </Helmet>
     <div className="App">
       <div className="container">
         {(typeof data.main != 'undefined') ? (
@@ -58,5 +65,6 @@ export default function App() {
           
       
     </div>
+ </>
   );
 }
