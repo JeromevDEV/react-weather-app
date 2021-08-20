@@ -1,6 +1,5 @@
 # JeromevDEV's Weather App [![Built](http://ForTheBadge.com/images/badges/built-with-love.svg)]
-
-
+[![CICD_Deploy](https://github.com/JeromevDEV/react-weather-app/actions/workflows/autodeploy.yml/badge.svg)](https://github.com/JeromevDEV/react-weather-app/actions/workflows/autodeploy.yml)
 
 Live at : https://jeromevdev.github.io/react-weather-app/ (_still a WIP_)
 
