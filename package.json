@@ -1,6 +1,6 @@
 {
   "name": "react-weather-app",
-  "description":"This is a simple React App for the weather",
+  "description": "This is a simple React App for the weather",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://JeromevDEV.github.io/react-weather-app",
@@ -50,5 +50,8 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
