@@ -1,7 +1,7 @@
 # JeromevDEV's Weather App [![Built](http://ForTheBadge.com/images/badges/built-with-love.svg)]
-[![CICD_Deploy](https://github.com/JeromevDEV/react-weather-app/actions/workflows/autodeploy.yml/badge.svg)](https://github.com/JeromevDEV/react-weather-app/actions/workflows/autodeploy.yml)
 
 Live at : https://jeromevdev.github.io/react-weather-app/ (_still a WIP_)
+[![CICD_Deploy](https://github.com/JeromevDEV/react-weather-app/actions/workflows/autodeploy.yml/badge.svg)](https://github.com/JeromevDEV/react-weather-app/actions/workflows/autodeploy.yml)
 
 ### ℹ️ About me 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :blush:</em>
