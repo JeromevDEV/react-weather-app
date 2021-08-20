@@ -1,5 +1,6 @@
 {
   "name": "react-weather-app",
+  "description":"This is a simple React App for the weather",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://JeromevDEV.github.io/react-weather-app",
