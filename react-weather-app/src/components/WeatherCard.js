@@ -51,7 +51,7 @@ const WeatherCard = ({dt, temp_min, temp_max, humidity, temp, main, city, countr
             <Card.Title>{city} - {country}</Card.Title>
             {/*  datetime is received in milliseconds, let's turn into local date time */}
             <p>
-            {date.toLocaleDateString()} - {date.toLocaleTimeString()}
+            <b>{date.toLocaleDateString()} - {date.toLocaleTimeString()}</b>
             </p>
             {/* minimum temperature */}
             <p>Min: {temp_min}</p>

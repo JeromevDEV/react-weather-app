@@ -7,10 +7,11 @@ import WeatherCard from './WeatherCard'
 const WeatherList = ({weathers}) => {
     console.log("e")
     console.log(weathers)
+
     return (
         <Row>
            {weathers.list.map(({dt, main, weather}) => (
-                <Col key={dt}>
+                <Col col-sm key={dt}>
                     <WeatherCard
                     dt={dt * 1000} 
                     temp_min={main.temp_min} 
